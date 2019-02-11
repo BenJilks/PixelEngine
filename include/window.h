@@ -5,7 +5,7 @@
 typedef void (*KeyEvent)(int key);
 typedef void (*MouseEvent)(float dx, float dy);
 
-void window_open(const char *title, int width, int height);
+int window_open(const char *title, int width, int height);
 int window_should_close();
 float window_delta_time();
 void window_get_size(int *width, int *height);
